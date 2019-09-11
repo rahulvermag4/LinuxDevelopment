@@ -9,7 +9,7 @@ static int __init myInitFunc(void)
 
 static void __exit myExitFunc(void)
 {
-	printk(KERN_INFO"%s:	Hello Guys\n",__func__);
+	printk(KERN_INFO"%s:	Bye Guys\n",__func__);
 }
 
 module_init(myInitFunc);
